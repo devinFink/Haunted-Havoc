@@ -34,8 +34,10 @@
   },
   "name":"Haunted Havoc!",
   "resources":[
+    {"id":{"name":"NPC","path":"objects/NPC/NPC.yy",},},
     {"id":{"name":"obj_item_base","path":"objects/obj_item_base/obj_item_base.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"NPC_Path","path":"paths/NPC_Path/NPC_Path.yy",},},
     {"id":{"name":"Prototype_Level","path":"rooms/Prototype_Level/Prototype_Level.yy",},},
     {"id":{"name":"Dark_Bricks_tileset","path":"sprites/Dark_Bricks_tileset/Dark_Bricks_tileset.yy",},},
     {"id":{"name":"Dark_Gloomy_Ground_tileset","path":"sprites/Dark_Gloomy_Ground_tileset/Dark_Gloomy_Ground_tileset.yy",},},
