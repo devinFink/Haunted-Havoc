@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,12 +34,21 @@
   },
   "name":"Haunted Havoc!",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_item_base","path":"objects/obj_item_base/obj_item_base.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"Prototype_Level","path":"rooms/Prototype_Level/Prototype_Level.yy",},},
+    {"id":{"name":"Dark_Bricks_tileset","path":"sprites/Dark_Bricks_tileset/Dark_Bricks_tileset.yy",},},
+    {"id":{"name":"Dark_Gloomy_Ground_tileset","path":"sprites/Dark_Gloomy_Ground_tileset/Dark_Gloomy_Ground_tileset.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"Stupid_Item","path":"sprites/Stupid_Item/Stupid_Item.yy",},},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Prototype_Level","path":"rooms/Prototype_Level/Prototype_Level.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
