@@ -5,3 +5,4 @@ starting_y = y;
 picked_up = false;
 
 item = item3;
+sprite_index = Stupid_Item3;

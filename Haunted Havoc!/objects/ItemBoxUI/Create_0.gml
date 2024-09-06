@@ -5,10 +5,27 @@ draw_set_valign(fa_bottom);
 
 item_pos = 0;
 item_pos_index = 0;
-item_array = array_create(5, []);
+item_array = array_create(5);
 for(var i = 0; i < 5; i += 1)
     {
-    item_array[i][item_type] = item_none;
-    item_array[i][item_sprite] = -1;
-    item_array[i][item_amount] = 0;
+		item_array[i] = array_create(3);
+    //item_array[i][item_type] = item_none;
+    //item_array[i][item_sprite] = -1;
+    //item_array[i][item_amount] = 0;
     }
+
+item_array[0][item_type] = item1
+item_array[1][item_type] = item2
+item_array[2][item_type] = item3
+item_array[3][item_type] = item4
+item_array[4][item_type] = item5
+item_array[0][item_sprite] = Stupid_Item;
+item_array[1][item_sprite] = Stupid_Item2;
+item_array[2][item_sprite] = Stupid_Item3;
+item_array[3][item_sprite] = Stupid_Item4;
+item_array[4][item_sprite] = Stupid_Item5;
+item_array[0][item_amount] = 1;
+item_array[1][item_amount] = 1;
+item_array[2][item_amount] = 1;
+item_array[3][item_amount] = 1;
+item_array[4][item_amount] = 1;
