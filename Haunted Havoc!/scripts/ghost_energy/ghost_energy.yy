@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ghost_energy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ghost_energy",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
