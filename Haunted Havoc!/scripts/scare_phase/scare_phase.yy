@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scare_phase",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scare_phase",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

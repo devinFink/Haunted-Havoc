@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"NPC",
+  "%Name":"obj_start",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"NPC",
+  "name":"obj_start",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Stupid_Item",
-    "path":"sprites/Stupid_Item/Stupid_Item.yy",
+    "name":"spr_start",
+    "path":"sprites/spr_start/spr_start.yy",
   },
   "spriteMaskId":null,
   "visible":true,

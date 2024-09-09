@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !(item_array[item_pos][item_type] == item_none)
+if (global.setup_phase && !(item_array[item_pos][item_type] == item_none))
     {
     var _type = item_array[item_pos][item_type];
     var _sprite = item_array[item_pos][item_sprite];
