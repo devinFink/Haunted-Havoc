@@ -10,6 +10,7 @@ if (global.setup_phase && !(item_array[item_pos][item_type] == item_none) && pic
     with(_inst)
         {
         item = _type;
+		show_debug_message(item)
         sprite_index = _sprite;
 		_inst.picked_up = true;
         }

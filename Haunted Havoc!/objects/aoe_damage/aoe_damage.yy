@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Stupid_item",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"aoe_damage",
+  "eventList":[],
   "managed":true,
-  "name":"Stupid_item",
+  "name":"aoe_damage",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_item_base",
-    "path":"objects/obj_item_base/obj_item_base.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Stupid_Item",
-    "path":"sprites/Stupid_Item/Stupid_Item.yy",
+    "name":"red_statue_effect",
+    "path":"sprites/red_statue_effect/red_statue_effect.yy",
   },
   "spriteMaskId":null,
   "visible":true,

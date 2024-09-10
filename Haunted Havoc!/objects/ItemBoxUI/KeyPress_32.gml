@@ -22,7 +22,7 @@ if (global.setup_phase && pickedup_item != noone)
 				//put the item down and record the position it was placed 
 				pickedup_item.picked_up = false;
 				var position = [snapped_x, snapped_y, pickedup_item.item]
-				show_debug_message(pickedup_item.item)
+				//show_debug_message(pickedup_item.item)
 				ds_list_add(global.occupied_positions, position);
 				pickedup_item = noone;
 		}

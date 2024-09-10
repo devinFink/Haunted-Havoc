@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (pickedup_item == noone)
+if (pickedup_item == noone && global.setup_phase)
 {
 	item_pos += 1;
 
