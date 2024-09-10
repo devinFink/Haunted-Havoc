@@ -42,6 +42,30 @@ if (global.setup_phase)
 	    {
 	    item_array[_pos][item_type] = _type;
 	    item_array[_pos][item_sprite] = _sprite;
+		//pickup item thats placed and return money
+		
+	
+		if(ItemBoxUI.pickedup_item == noone)
+		{
+			var snapped_x = mouse_x div 64 * 64;
+			var snapped_y = mouse_y div 64 * 64;
+			//want to remove pos data from list when removing item
+			for (var i = 0; i < ds_list_size(global.occupied_positions); i++)
+			{
+				var pos = ds_list_find_value(global.occupied_positions, i)
+				show_debug_message(pos[2])
+				if ((pos[0] == snapped_x) && (pos[1] == snapped_y)) 
+				{
+
+					increase_energy(item_array[pos[2]-1][item_costs])
+					ds_list_delete(global.occupied_positions,i);
+				}
+			}
+			//janky af but other.item holds 1,2,3 for what the item id is, so -1 will give the right id in array
+			//increase_energy(item_array[other.item-1][item_costs])
+			//show_debug_message(other.item)
+		}
+		ItemBoxUI.pickedup_item = noone;
 	    with(other) instance_destroy();
 	    }
 	    }

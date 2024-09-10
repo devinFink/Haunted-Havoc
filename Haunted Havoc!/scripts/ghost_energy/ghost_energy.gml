@@ -6,7 +6,7 @@ global.max_energy = 20;
 
 function spend_energy(item_cost){
 	if(item_cost > global.current_energy) {
-		draw_text(250, 250, "You don't have the energy for this item!");
+		GhostEnergyGUI.drawInsufFundsTxt = true;
 		return false;
 	}
 	

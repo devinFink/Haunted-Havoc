@@ -13,6 +13,7 @@
 #macro item_sprite 1
 
 #macro item_costs 2
+#macro item_placed 3
 
 // Phases
 global.setup_phase = true

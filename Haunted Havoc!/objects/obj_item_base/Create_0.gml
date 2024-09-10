@@ -6,3 +6,4 @@
 picked_up = false;
 fear_list = [FEAR_TYPES.DARK]
 cost = 0;
+
