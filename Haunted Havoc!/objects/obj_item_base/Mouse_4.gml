@@ -6,20 +6,13 @@ starting_y= y-mouse_y;
 
 if (global.setup_phase)
 {
-	if picked_up {
-	picked_up = false;
-	}
-	else {
-		picked_up = true;
-	}
-
 	var _pos = 0;
 	var _type = item;
 	var _sprite = sprite_index;
 
 	with(ItemBoxUI)
 	    {
-	    while (_pos < 5)
+	    while (_pos < 3)
 	        {
 	        if (item_array[_pos][item_type] == _type)
 	            {
@@ -30,10 +23,10 @@ if (global.setup_phase)
 	            _pos += 1;
 	            }
 	        }
-	    if (_pos > 4)
+	    if (_pos > 2)
 	        {
 	        _pos = 0;
-	        while (_pos < 5)
+	        while (_pos < 3)
 	            {
 	            if (item_array[_pos][item_type] == item_none)
 	                {
@@ -45,11 +38,10 @@ if (global.setup_phase)
 	                }
 	            }
 	        }
-	if (_pos < 5)
+	if (_pos < 3)
 	    {
 	    item_array[_pos][item_type] = _type;
 	    item_array[_pos][item_sprite] = _sprite;
-	    item_array[_pos][item_amount] += 1;
 	    with(other) instance_destroy();
 	    }
 	    }
