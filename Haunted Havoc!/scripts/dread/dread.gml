@@ -19,7 +19,7 @@ enum FEAR_TYPES{
  * @function Moves the fear meter based on the amount passed in and the current scaling
  * @param {int} amount to change meter by
  */
-function changeDread(amount, npc_obj, item_obj){
+function changeDread(amount, npc_obj){
 	global.current_dread += amount * global.dread_scale;
 	if(global.current_dread >= global.max_dread) {
 		scare_npc();
