@@ -4,7 +4,7 @@
 //starting_x = x;
 //starting_y = y;
 picked_up = false;
-fear_list = [FEAR_TYPES.DARK]
+fear_list = [FEAR_TYPES.GHOST]
 cost = 0;
 draw_interact = false;
 
