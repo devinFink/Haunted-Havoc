@@ -15,6 +15,8 @@
 #macro item_costs 2
 #macro item_placed 3
 
+global.itemList = [obj_item_base, Stupid_item2, Stupid_item3]
+
 // Phases
 global.setup_phase = true
 global.scare_time = 30

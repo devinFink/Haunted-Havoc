@@ -5,7 +5,7 @@ if (global.setup_phase && !(item_array[item_pos][item_type] == item_none) && pic
     {
     var _type = item_array[item_pos][item_type];
     var _sprite = item_array[item_pos][item_sprite];
-    var _inst = instance_create_layer(mouse_x, mouse_y, "Items", obj_item_base);
+    var _inst = instance_create_layer(mouse_x, mouse_y, "Items", global.itemList[item_pos]);
 	pickedup_item = _inst;
     with(_inst)
         {

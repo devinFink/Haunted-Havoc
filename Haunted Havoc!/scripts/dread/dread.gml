@@ -21,8 +21,8 @@ enum FEAR_TYPES{
  */
 function changeDread(amount, npc_obj){
 	
-	current_fear += amount * fear_scale;
-	if(current_fear >= max_fear) {
+	global.current_dread += amount * global.dread_scale;
+	if(global.current_dread >= global.max_dread) {
 		scare_npc(npc_obj);
 	}
 	
@@ -54,14 +54,11 @@ function fear_matches(npc_obj, item_obj) {
 Function scares the NPC using the current valued dread
 @param npc_obj npc index being scared
 */
-function scare_npc(npc_obj) {
-	if(npc_obj.parent.object_index != NPC)
-		return false;
-		
-	current_health -= current_dread;
-	current_dread = 0;
+function scare_npc() {
+	global.current_health -= global.current_dread;
+	global.current_dread = 0;
 	
-	if(current_health <= 0)
+	if(global.current_health <= 0)
 	{
 		npc_obj.dead = true;
 	}

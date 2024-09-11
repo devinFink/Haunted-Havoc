@@ -36,7 +36,9 @@
   "resources":[
     {"id":{"name":"fnt_timer","path":"fonts/fnt_timer/fnt_timer.yy",},},
     {"id":{"name":"aoe_damage","path":"objects/aoe_damage/aoe_damage.yy",},},
+    {"id":{"name":"aoe_health_damage","path":"objects/aoe_health_damage/aoe_health_damage.yy",},},
     {"id":{"name":"GhostEnergyGUI","path":"objects/GhostEnergyGUI/GhostEnergyGUI.yy",},},
+    {"id":{"name":"Health_Dread_Bars","path":"objects/Health_Dread_Bars/Health_Dread_Bars.yy",},},
     {"id":{"name":"ItemBoxUI","path":"objects/ItemBoxUI/ItemBoxUI.yy",},},
     {"id":{"name":"NPC","path":"objects/NPC/NPC.yy",},},
     {"id":{"name":"obj_item_base","path":"objects/obj_item_base/obj_item_base.yy",},},
