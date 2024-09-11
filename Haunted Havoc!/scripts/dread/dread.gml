@@ -22,7 +22,7 @@ enum FEAR_TYPES{
 function changeDread(amount, npc_obj){
 	global.current_dread += amount * global.dread_scale;
 	if(global.current_dread >= global.max_dread) {
-		scare_npc();
+		scare_npc(npc_obj);
 	}
 	
 }
@@ -35,7 +35,7 @@ function changeDread(amount, npc_obj){
  * @returns {bool} true if their fears match, false otherwise. 
  */
 function fear_matches(npc_obj, item_obj) {
-	if(npc_obj.parent.object_index != NPC || item_obj.parent.object_index != obj_item_base)
+	if(npc_obj.object_index != NPC || item_obj.parent.object_index != obj_item_base)
 		return false;
 		
 	for(var i = 0; i < npc_obj.fear_list; i++) {
@@ -53,12 +53,16 @@ function fear_matches(npc_obj, item_obj) {
 Function scares the NPC using the current valued dread
 @param npc_obj npc index being scared
 */
-function scare_npc() {
+function scare_npc(_npc_obj) {
+	if(_npc_obj.object_index != NPC) {
+		show_debug_message("Cry About it");
+		return false;
+	}
 	global.current_health -= global.current_dread;
 	global.current_dread = 0;
 	
 	if(global.current_health <= 0)
 	{
-		npc_obj.dead = true;
+		_npc_obj.dead = true;
 	}
 }

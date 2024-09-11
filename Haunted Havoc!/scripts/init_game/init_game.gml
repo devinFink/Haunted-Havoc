@@ -19,4 +19,4 @@ global.itemList = [obj_item_base, Stupid_item2, Stupid_item3]
 
 // Phases
 global.setup_phase = true
-global.scare_time = 30
+global.scare_time = 58
