@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Stupid_Item2",
   "bboxMode":1,
-  "bbox_bottom":63,
+  "bbox_bottom":1499,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":1499,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a91acd8c-8464-4665-b604-f923c007c847","name":"a91acd8c-8464-4665-b604-f923c007c847","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"df788c4e-da53-4472-a5f3-9f05f50c76da","name":"df788c4e-da53-4472-a5f3-9f05f50c76da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":1500,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1f6a3527-8cbb-42ca-92c6-e564605bbd1c","blendMode":0,"displayName":"default","isLocked":false,"name":"1f6a3527-8cbb-42ca-92c6-e564605bbd1c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"799724c0-d746-44b4-9114-9ab67444e3e2","blendMode":0,"displayName":"default","isLocked":false,"name":"799724c0-d746-44b4-9114-9ab67444e3e2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Stupid_Item2",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a91acd8c-8464-4665-b604-f923c007c847","path":"sprites/Stupid_Item2/Stupid_Item2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1cde16f9-11dd-43b8-8e9c-de8bcb7cdf28","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df788c4e-da53-4472-a5f3-9f05f50c76da","path":"sprites/Stupid_Item2/Stupid_Item2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"574b3a58-d931-41b5-91b9-4bb7bfc9ae04","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":1500,
 }

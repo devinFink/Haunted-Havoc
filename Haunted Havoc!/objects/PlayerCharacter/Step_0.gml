@@ -9,4 +9,13 @@ if(global.setup_phase == false) {
 
 	x += xspd;
 	y += yspd;
+	
+	if(xspd > 0)
+	{
+		image_xscale = -1;
+	}
+	else if(xspd < 0)
+	{
+		image_xscale = 1;
+	}
 }
