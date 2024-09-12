@@ -8,3 +8,4 @@ draw_interact = false;
 item = item3;
 sprite_index = Stupid_Item3;
 on_cooldown = false;
+global.piano_active = false;
