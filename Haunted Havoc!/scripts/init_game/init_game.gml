@@ -16,7 +16,7 @@
 #macro item_placed 3
 
 global.itemList = [obj_item_base, Stupid_item2, Stupid_item3]
-
+global.markerlist= [spr_marker, spr_marker_1, spr_marker_2]
 // Phases
 global.setup_phase = true
 global.scare_time = 58

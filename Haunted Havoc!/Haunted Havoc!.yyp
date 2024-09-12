@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Haunted Havoc!",
   "resources":[
@@ -42,6 +42,8 @@
     {"id":{"name":"ItemBoxUI","path":"objects/ItemBoxUI/ItemBoxUI.yy",},},
     {"id":{"name":"NPC","path":"objects/NPC/NPC.yy",},},
     {"id":{"name":"obj_item_base","path":"objects/obj_item_base/obj_item_base.yy",},},
+    {"id":{"name":"obj_marker_1","path":"objects/obj_marker_1/obj_marker_1.yy",},},
+    {"id":{"name":"obj_marker","path":"objects/obj_marker/obj_marker.yy",},},
     {"id":{"name":"obj_phase_timer","path":"objects/obj_phase_timer/obj_phase_timer.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
@@ -67,6 +69,9 @@
     {"id":{"name":"PC_Sprite","path":"sprites/PC_Sprite/PC_Sprite.yy",},},
     {"id":{"name":"red_statue_effect","path":"sprites/red_statue_effect/red_statue_effect.yy",},},
     {"id":{"name":"spr_Inventory_Selected","path":"sprites/spr_Inventory_Selected/spr_Inventory_Selected.yy",},},
+    {"id":{"name":"spr_marker_1","path":"sprites/spr_marker_1/spr_marker_1.yy",},},
+    {"id":{"name":"spr_marker_2","path":"sprites/spr_marker_2/spr_marker_2.yy",},},
+    {"id":{"name":"spr_marker","path":"sprites/spr_marker/spr_marker.yy",},},
     {"id":{"name":"spr_phase_timer","path":"sprites/spr_phase_timer/spr_phase_timer.yy",},},
     {"id":{"name":"spr_start","path":"sprites/spr_start/spr_start.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
