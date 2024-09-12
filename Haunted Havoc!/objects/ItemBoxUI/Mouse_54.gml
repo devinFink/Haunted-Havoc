@@ -10,6 +10,7 @@ if (global.setup_phase && !(item_array[item_pos][item_type] == item_none) && pic
     with(_inst)
         {
         item = _type;
+		audio_play_sound(snd_grab, 0, false, 1, 0, random_range(0.9, 1.1))
 		show_debug_message(item)
         sprite_index = _sprite;
 		_inst.picked_up = true;

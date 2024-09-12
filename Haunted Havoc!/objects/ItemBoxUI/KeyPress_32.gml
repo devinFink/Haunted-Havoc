@@ -29,6 +29,7 @@ if (global.setup_phase && pickedup_item != noone)
 		if (spend_energy(item_array[item_pos][item_costs]))
 		{
 				//put the item down and record the position it was placed 
+				audio_play_sound(snd_place, 0, false, 1, 0, random_range(0.9, 1.1))
 				pickedup_item.picked_up = false;
 				var position = [snapped_x, snapped_y, pickedup_item.item]
 				//show_debug_message(pickedup_item.item)
