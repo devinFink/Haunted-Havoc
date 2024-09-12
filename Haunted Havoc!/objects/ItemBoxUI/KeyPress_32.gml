@@ -15,6 +15,15 @@ if (global.setup_phase && pickedup_item != noone)
 			break;
 		}
 	}
+	var coll_obj = collision_circle(mouse_x, mouse_y, 2, obj_wall, 0, 1);
+
+	//Is the mouse colliding with a wall?
+	if (coll_obj != noone)
+	{
+		position_free = false;
+	}
+	
+	
 	if (position_free)
 	{
 		if (spend_energy(item_array[item_pos][item_costs]))
