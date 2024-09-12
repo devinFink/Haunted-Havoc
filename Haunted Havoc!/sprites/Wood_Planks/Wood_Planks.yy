@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"Stupid_Item2",
-  "bboxMode":1,
-  "bbox_bottom":63,
-  "bbox_left":0,
-  "bbox_right":63,
+  "%Name":"Wood_Planks",
+  "bboxMode":0,
+  "bbox_bottom":62,
+  "bbox_left":64,
+  "bbox_right":127,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"84a3a85c-ddb4-4971-84d8-e53445797334","name":"84a3a85c-ddb4-4971-84d8-e53445797334","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"50baa3ae-6229-4e2a-8e5b-9320135eb24f","name":"50baa3ae-6229-4e2a-8e5b-9320135eb24f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
-  "HTile":false,
+  "height":128,
+  "HTile":true,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1440c076-01bc-46bc-ae88-545ef82470eb","blendMode":0,"displayName":"default","isLocked":false,"name":"1440c076-01bc-46bc-ae88-545ef82470eb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"1db8cc73-92aa-44a2-b978-bc2345ad02e7","blendMode":0,"displayName":"default","isLocked":false,"name":"1db8cc73-92aa-44a2-b978-bc2345ad02e7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Stupid_Item2",
+  "name":"Wood_Planks",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Stupid_Item2",
+    "%Name":"Wood_Planks",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Stupid_Item2",
+    "name":"Wood_Planks",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"84a3a85c-ddb4-4971-84d8-e53445797334","path":"sprites/Stupid_Item2/Stupid_Item2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4123d7c2-f6d1-43ea-b3ad-685a9ad6ff33","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50baa3ae-6229-4e2a-8e5b-9320135eb24f","path":"sprites/Wood_Planks/Wood_Planks.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3e3c8183-1f4e-423c-8f75-46a773b5b4ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -85,6 +85,6 @@
     "path":"texturegroups/Default",
   },
   "type":0,
-  "VTile":false,
-  "width":64,
+  "VTile":true,
+  "width":128,
 }
