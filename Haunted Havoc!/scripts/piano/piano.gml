@@ -5,9 +5,10 @@ function piano(){
 	{
 		show_debug_message("Piano is calling correctly")
 		//6sec? assuming game is 60fps idk
-		alarm[1] = 90;
+		alarm[1] = 180;
 		on_cooldown = true;
 		global.piano_active = true;
 		//instantiate a red aoe circle object to visualize effect,
+		piano_timer_started = true; 
 	}	
 }

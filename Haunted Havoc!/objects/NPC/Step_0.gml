@@ -24,23 +24,27 @@ var _tx, _ty
 _tx = instance_find(obj_marker, global.marker_counter).x
 _ty = instance_find(obj_marker, global.marker_counter).y
 //If piano is active, set destination coordinates to the active piano
-if (instance_number(Stupid_Item3) > 0)
+if (instance_number(Stupid_item3) > 0) {
 	if (global.piano_active) {
-	_tx = piano.x
-	_ty = piano.y
-	show_debug_message(string(piano.x) + " " + string(piano.y))
+		_tx = Stupid_item3.x
+		_ty = Stupid_item3.y
+		show_debug_message(string(Stupid_item3.x) + " " + string(Stupid_item3.y))
+	}
 }
 show_debug_message(instance_number(Stupid_Item3))
 
 //Set pathfinding here
-mp_grid_path(global.mpg, npc_path, x, y, _tx, _ty, true);
-path_start(npc_path, 3, path_action_stop, true)
+//mp_grid_path(global.mpg, npc_path, x, y, _tx, _ty, true);
+//path_start(npc_path, 1, path_action_continue, true)
+mp_potential_step(_tx, _ty, 1, false)
+inst = instance_nearest(x, y, obj_marker);
+draw_line(x, y, inst.x, inst.y);
 
 //Increase counter by 1 if NPC has reached their marker destination based on marker_counter index
-if (NPC.x == instance_find(obj_marker, global.marker_counter).x && NPC.y == instance_find(obj_marker, global.marker_counter).y)
+if (place_meeting(x, y, instance_find(obj_marker, global.marker_counter)))
 {
 	if (global.marker_counter < instance_number(obj_marker) - 1)
-	global.marker_counter++;
+		global.marker_counter++;
 	else
-	instance_destroy(self)
+		instance_destroy(self)
 }
