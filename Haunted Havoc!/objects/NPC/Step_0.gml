@@ -37,8 +37,7 @@ show_debug_message(instance_number(Stupid_Item3))
 //mp_grid_path(global.mpg, npc_path, x, y, _tx, _ty, true);
 //path_start(npc_path, 1, path_action_continue, true)
 mp_potential_step(_tx, _ty, 1, false)
-inst = instance_nearest(x, y, obj_marker);
-draw_line(x, y, inst.x, inst.y);
+
 
 //Increase counter by 1 if NPC has reached their marker destination based on marker_counter index
 if (place_meeting(x, y, instance_find(obj_marker, global.marker_counter)))
