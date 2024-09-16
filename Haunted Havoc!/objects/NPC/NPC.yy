@@ -35,6 +35,9 @@
     "name":"npcart",
     "path":"sprites/npcart/npcart.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Sprite17",
+    "path":"sprites/Sprite17/Sprite17.yy",
+  },
   "visible":true,
 }
