@@ -16,12 +16,13 @@ if (!global.setup_phase)
 		alarm_set(0, global.scare_time * 60) // 60 fps
 	}
 	draw_set_color(c_red)
-	draw_text(x + sprite_width / 2, y + (sprite_height / 2), alarm_get(0) / 60)
+	draw_text(x + sprite_width / 2, y + (sprite_height / 2), "Scare Phase!")
+	draw_text(x + sprite_width / 2, y + (sprite_height / 2) +25, alarm_get(0) / 60)
 }
 else
 {
 	draw_set_color(c_green)
-	draw_text(x + sprite_width / 2, y + (sprite_height / 2), "Setup")
+	draw_text(x + sprite_width / 2, y + (sprite_height / 2), "Setup Phase")
 }
 
 draw_set_color(c_white)
