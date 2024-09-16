@@ -6,6 +6,7 @@ var _item_y = item_pos * 128;
 var _xx = bbox_left + 13 ;
 var _yy = bbox_top + 13;
 draw_set_color(c_white)
+draw_set_halign(fa_left)
 draw_sprite(spr_Inventory_Selected, item_pos_index, _xx, _yy + _item_y);
 item_pos_index += 0.2;
 for(var i = 0; i < 3; i += 1)
